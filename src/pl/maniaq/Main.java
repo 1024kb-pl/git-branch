@@ -3,9 +3,9 @@ import java.util.Scanner;
 
 public class Main {
 
-    Scanner scanner = new Scanner(System.in);
+    static Scanner scanner = new Scanner(System.in);
 
-    public void createUser() {
+    public static void createUser() {
         String name, lastname;
         Integer age;
 
@@ -23,6 +23,6 @@ public class Main {
     }
 
     public static void main(String[] args) {
-	// write your code here
+        createUser();
     }
 }
