@@ -42,5 +42,8 @@ public class Main {
     public static void main(String[] args) {
         createUser();
         calculate();
+
+        UserDao userDao = new UserDao();
+        System.out.println(userDao.getAllUsers());
     }
 }
